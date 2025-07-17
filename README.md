@@ -1,58 +1,57 @@
-# 🌸 Iris Flower Species Classifier
+# 🌸 Iris Flower Species Predictor
 
-An elegant and interactive web application that predicts the species of an Iris flower using its measurements. Built with **Streamlit** and powered by a **Logistic Regression model**, this app classifies flowers into one of three categories:
+An elegant and interactive web app that predicts the species of an Iris flower based on four key measurements:  
+**Sepal Length**, **Sepal Width**, **Petal Length**, and **Petal Width**.
 
-- **Setosa**
-- **Versicolor**
-- **Virginica**
-
----
-
-## 🔗 Live Demo
-
-🟢 **Try it here:**  
-👉 [varenyavisen-irisclassifier-app.streamlit.app](https://varenyavisen-irisclassifier-app-app-vbrrko.streamlit.app/)
+<div align="center">
+  <img src="app-preview.png" alt="Iris App Screenshot" width="80%"/>
+</div>
 
 ---
 
-## 📂 Dataset
+## 🔍 About the Project
 
-The model was trained on the famous [Iris Dataset](https://www.dropbox.com/scl/fi/uubmpyj0vtrgkr1rxz5ps/iris.csv?rlkey=54083kkf20vnu5soxpnqegm4a&e=1&st=cq3bl7uj&dl=0) containing 150 rows and 4 numerical features:
+This Streamlit-based application uses a **Logistic Regression** model to classify iris flowers into three species:
 
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
+- *Setosa*  
+- *Versicolor*  
+- *Virginica*
 
----
-
-## 🌟 Features
-
-✅ Simple and beautiful user interface  
-✅ Real-time predictions with a trained model  
-✅ Clean layout with color accents and intuitive sliders  
-✅ Sidebar for app info and author details  
-✅ Deployed and accessible via public URL
+It offers an intuitive slider-based UI to make real-time predictions based on flower measurements.
 
 ---
 
-## 🧠 Model
+## 🚀 Live Demo
 
-- **Algorithm:** Logistic Regression  
-- **Library:** Scikit-learn  
-- **Target Classes:** Setosa, Versicolor, Virginica
+👉 [Click here to view the live app](https://varenyavisen-irisclassifier-app-app-vbrrko.streamlit.app/)
 
 ---
 
-## 💻 Tech Stack
+## 📊 Dataset
 
-| Tool            | Purpose                    |
-|-----------------|----------------------------|
-| Streamlit       | Web app interface          |
-| Scikit-learn    | Machine Learning model     |
-| NumPy, Pandas   | Data processing            |
-| Pickle          | Model serialization        |
-| GitHub & Streamlit Cloud | Deployment         |
+The dataset used is the popular Iris dataset available here:  
+📁 [Dropbox Link to Iris Dataset](https://www.dropbox.com/scl/fi/uubmpyj0vtrgkr1rxz5ps/iris.csv?rlkey=54083kkf20vnu5soxpnqegm4a&e=1&st=cq3bl7uj&dl=0)
 
 ---
 
+## 🧠 Features
+
+- 📏 Interactive sliders for all input features  
+- 🌸 Real-time prediction of iris species  
+- 🌙 Clean, dark-themed user interface  
+- ⚡ Lightweight and fast  
+- 💬 Friendly and readable output
+
+---
+
+## 🛠 Tech Stack
+
+| Technology       | Purpose                                |
+|------------------|-----------------------------------------|
+| Python           | Programming language                   |
+| Pandas           | Data loading & preprocessing           |
+| Scikit-learn     | Logistic Regression model              |
+| Streamlit        | Web UI & deployment                    |
+| Pickle           | Model serialization                    |
+
+---
